@@ -1,9 +1,6 @@
-
-
 const input = document.getElementById("input");
 const addbtn = document.getElementById("add");
 const list = document.getElementById("list");
-
 
 
 addbtn.addEventListener("click", () => {
@@ -25,5 +22,9 @@ addbtn.addEventListener("click", () => {
     input.value = "";
     alert("Added to list!");
 })
+
+
+
+
 
 const { createElement } = require("lucide");
