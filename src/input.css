@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@theme {
+    /* Custom Fonts */
+    --font-oswald: "Oswald", "sans-serif";
+    --font-sans: "Roboto", sans-serif;
+
+    /* Custom Screen Sizes (Breakpoints) */
+    
+    
+
+    /* Custom Colors */
+    --color-try: #8F87F1;
+    --color-primary-Z: #183B4E;
+    --color-ewan: #A08963;
+    --color-brandBlue: #1E40AF;
+    --color-brandGold: #FFD700;
+
+    /* Custom Spacing */
+    --spacing-72: 18rem;
+    --spacing-84: 21rem;
+    --spacing-96: 24rem;
+
+    /* Custom Border Radius */
+    --border-radius-xl: 1.5rem;
+    --border-radius-2xl: 2rem;
+
+    /* Custom Shadows */
+    --shadow-strong: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
